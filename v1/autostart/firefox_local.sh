@@ -1,1 +1,1 @@
-firefox --kiosk /home/spot/ds/slideshow.html
+firefox --kiosk file:///root/spot/html/slideshow.html
