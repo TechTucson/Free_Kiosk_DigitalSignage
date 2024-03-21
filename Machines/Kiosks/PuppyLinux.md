@@ -20,6 +20,9 @@
 - Create a Partition Table
 - Format it to Fat 32
 - Close Gparted
+- - ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition.PNG?raw=true)
+  - - ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition2.PNG?raw=true)
+    - - ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition3.PNG?raw=true)
 #### Step 4 Install Puppy Linux Frugal
 #### Step 5 Install BootLoader
 - 
