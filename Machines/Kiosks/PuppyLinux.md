@@ -24,5 +24,18 @@
 - ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition3.PNG?raw=true)
 - Close GParted
 #### Step 4 Install Puppy Linux Frugal
-#### Step 5 Install BootLoader
+- Right Click on the Desktop
+- Click Setup and Select Puppy Installer
+- Select Frugalpup -Install/Manage Installs
+- Click Puppy
+  - Select This Puppy
+  - Select the sda1/fat32 partition we created earlier
+  - Create a folder and call it Puppy
+  - Click OK
+  - Click OK
 - 
+#### Step 5 Install BootLoader
+- Right Click on the Desktop
+- Click Setup and Select Puppy Installer
+- Select Frugalpup -Install/Manage Installs
+- Click Boot
