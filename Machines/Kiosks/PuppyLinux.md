@@ -9,6 +9,7 @@
 #### Step 2 Create a VirtualBox  
 - We won't need many resources. As a test: I am using **1GB Memory**, **1 CPU**, and **8GB** Hard Drive (Though Only 1.5 GB Are Being Used)
 - Start The Virtual Machine
+- https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/VirtualBox.PNG
 #### Step 3 Create A Fat 32 Partition ( To Install Puppy Linux)
 - Open a Command Prompt
 - Open Gparted
