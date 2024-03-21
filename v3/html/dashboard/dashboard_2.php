@@ -11,6 +11,7 @@
         margin-top: 20px;
     }
     .red{ background: #ff0000; }
+    .all{ background: #b0b0b0; }
     .green{ background: #228B22; }
     .blue{ background: #0000ff; }a
     label{ margin-right: 15px; }
@@ -32,8 +33,9 @@ $(document).ready(function(){
         <label><input type="radio" name="colorRadio" value="red"> Player 1</label>
         <label><input type="radio" name="colorRadio" value="green"> Player 2</label>
         <label><input type="radio" name="colorRadio" value="blue"> Player 3</label>
-      <label><input type="radio" name="colorRadio" value="all"> All Players</label>
+        <label><input type="radio" name="colorRadio" value="all"> All Players</label>
     </div>
+
     <div class="red box">You have selected <strong>Player 1</strong> so i am here
     <button name="button">Reboot Player</button>
     </div>
@@ -43,7 +45,7 @@ $(document).ready(function(){
     <div class="blue box">You have selected <strong>Player 3</strong> so i am here
     <button name="button">Reboot Player</button>
     </div>
-      <div class="blue box">You have selected <strong>All Players</strong> so i am here
+      <div class="all box">You have selected <strong>All Players</strong> so i am here
           <button name="button">Reboot Players</button>
           <button name="button">Set Emergency Message Players</button>
     </div>
