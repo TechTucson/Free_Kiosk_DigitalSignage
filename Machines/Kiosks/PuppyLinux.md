@@ -39,3 +39,18 @@
 - Click Setup and Select Puppy Installer
 - Select Frugalpup -Install/Manage Installs
 - Click Boot
+  - Select our sda1/fat32 partition we created
+  - Click OK
+  - Click OK
+  - Select Our Partition once again sda1
+  - Click OK
+  - Click OK
+  - Click OK
+#### Step 6 Remove ISO and Reboot
+- Shut Down your Machine
+- Remove the Mounted ISO
+- Start the Machine
+#### Step 7 Install Firefox
+- Right Click on the Desktop
+- Click Setup and Select Puppy Installer
+- 
