@@ -12,7 +12,7 @@
     }
     .red{ background: #ff0000; }
     .green{ background: #228B22; }
-    .blue{ background: #0000ff; }
+    .blue{ background: #0000ff; }a
     label{ margin-right: 15px; }
 </style>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
