@@ -1,7 +1,7 @@
  <div class="field">
-    <label for="roleBox" data-label="I_AM">{% trans %} main.I_AM_TITLE {% endtrans %}</label>
     <div class="f-wrapper">
        <select id="roleSel" class="cbx" tabindex="50" name="role">
+	      <option value="empty">Which Player Do We Need To Work On?</option>
               <option value="student">A Student</option>
               <option value="educator">An Educator</option>
               <option value="parent">A parent signing up for my child</option>
@@ -24,7 +24,8 @@ for(var x = 0; x < ids.length; x++){   document.getElementById(ids[x]).style.dis
 }    document.getElementById(this.value).style.display = "block";
 }
 </script>
-
+<style>
 .hidden{
     display: none;
 }
+</style>
