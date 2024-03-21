@@ -8,8 +8,11 @@
 - The latest or other PuppyLinux ISO's can be found here: https://forum.puppylinux.com/puppy-linux-collection
 #### Step 2 Create a VirtualBox  
 - We won't need many resources. As a test: I am using **1GB Memory**, **1 CPU**, and **8GB** Hard Drive (Though Only 1.5 GB Are Being Used)
+- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/VirtualBox.PNG?raw=true)
+- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/VirtualBox2.PNG?raw=true)
+- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/VirtualBox2.PNG?raw=true)
 - Start The Virtual Machine
-![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/VirtualBox.PNG?raw=true)
+
 #### Step 3 Create A Fat 32 Partition ( To Install Puppy Linux)
 - Open a Command Prompt
 - Open Gparted
