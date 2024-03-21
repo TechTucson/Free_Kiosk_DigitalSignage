@@ -53,4 +53,16 @@
 #### Step 7 Install Firefox
 - Right Click on the Desktop
 - Click Setup and Select Puppy Installer
-- 
+- Click the Second TAB "Install Applications"
+- Click "Puppy Package Manager"
+- Click Continue to Puppy Package Manager if you are prompted to install browsers.
+- Search for firefox-esr
+  - You'll see a lot of utilities but only one  application
+  - Install firefox-esr_115.7.0-esr-1 (lastest available at time of writing this how-to)
+- Test that Firefox works.
+#### Step 8 Reboot and Save your Puppy Install
+- PuppyLinux works like a live cd. When you reboot you are given the option to SAVE. If you do not save all of your changes for that session will not persist.
+- Make sure you hit **SAVE**
+#### Step 9 Verify
+- Let's make sure that Firefox is installed.
+- You are all done with this part. 
