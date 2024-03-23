@@ -19,5 +19,7 @@ This project is aimed at the small and even midsize locations that want to push 
 ## Sub Project 1 ( V1)
 This should get you up and running with displaying Media to a Screen. You'll be able to choose whether you want to display Images, Videos, or an External/Internal Site. I don't envision any automation here with most of the processes being manual. A reboot should get you back to a working state. 
 
+You can find V1 here: https://github.com/TechTucson/Free_Kiosk_DigitalSignage/tree/main/v1
+
 ## Sub Project 2 (V2)
 
