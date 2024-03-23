@@ -32,9 +32,22 @@ This project is aimed at the small and even midsize locations that want to push 
   - Links to External/Internal Websites. 
 
 ## Sub Project 1 ( V1)
-This should get you up and running with displaying Media to a Screen. You'll be able to choose whether you want to display Images, Videos, or an External/Internal Site. I don't envision any automation here with most of the processes being manual. A reboot should get you back to a working state. 
+This should get you up and running with displaying Media to a Screen. You'll be able to choose whether you want to display Images, Videos, or an External/Internal Site. This project will work only on the Media Player portion. I don't envision any automation here with most of the processes being manual. A reboot should get you back to a working state. 
 
 You can find V1 here: https://github.com/TechTucson/Free_Kiosk_DigitalSignage/tree/main/v1
 
 ## Sub Project 2 (V2)
+Here we'll add a central server running on Apache and PHP8.2 that will be used to display our media. We'll direct the Media Player that we set up in our previous project to display content from the server instead of Locally. 
+You can find V2 here: https://github.com/TechTucson/Free_Kiosk_DigitalSignage/tree/main/v2
+
+## Sub Project 3 (V3)
+We'll need some type of centralization/admin area to manage our players remotely. Here are the current actions and Information that I can see wanting to add
+
+- Is the Player Up ( Pingable)
+- Reboot Player
+- Set Player to Initial Configuration
+- Display Emergency Message ( i.e. Shelter in Place)
+
+## Sub Project 4 (V4)
+These are just thoughts, 
 
