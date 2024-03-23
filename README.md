@@ -49,5 +49,10 @@ We'll need some type of centralization/admin area to manage our players remotely
 - Display Emergency Message ( i.e. Shelter in Place)
 
 ## Sub Project 4 (V4)
-These are just thoughts, 
+These are just thoughts:
+
+- DNS For Controlling Media
+- PowerPoint Presentations
+- GoogleSlideshows
+- 
 
