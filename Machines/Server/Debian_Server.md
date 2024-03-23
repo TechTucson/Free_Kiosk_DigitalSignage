@@ -14,7 +14,7 @@
   - Make sure to remember the password
 - Make sure to remember the root password  
 - The only step that we will vary from the defaults is when selecting the software to install:
-- 
+  - https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Server/images/Debian_Server-Software.png
 
 1. Install Debian Base
 2. Install PHP
