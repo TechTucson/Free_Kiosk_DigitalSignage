@@ -4,6 +4,10 @@ Sub-Project 2 (v2) of our project will focus on adding a central server running 
 ### Debian 12 Server Setup
 Take a look at the instructions for installing Debian Server for our needs here:https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Server/Debian_Server.md 
 
+## Once you have a working Debian 12 Server with Apache and PHP Installed
+
+### Clone this Repo
+- git clone
 
 ### Add your Media
 - Add Your Media to /var/www/html/imgs
