@@ -21,6 +21,7 @@
  - sudo apt install php8.2
  - sudo service apache2 start
  - sudo systemctl enable apache2
+ - sudo apt install git
 
  #### Verify Apache Installation
  - curl 127.0.0.1
