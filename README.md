@@ -4,13 +4,17 @@ This project is aimed at the small and even midsize locations that want to push 
 
 ## Requirements
 
-- Basic Linux Understandment
+- Basic Linux Knowledge
+  - We'll use mainly Debian-based systems. ( Debian, PuupyLinux, and Maybe Ubuntu)
+- Media Player's
+  - VirtualBox for Testing. ( This method is great for testing before you transfer to bare metal)
+  - Physical Devices. While having a virtualized Media Player is possible. To Push this out to production you'll need a system capable of running our Linux requirements.
+  - SoC (Raspberry Pi, RockPi), I have a couple of those lying around and they are running Linux. I will more than likely test these out. 
 - Basic Scripting ( Bash/Python/PHP)
   - This does not go very deep.  
 
 ## Sub Project 1 ( V1)
-This should get you up and running with displaying Media to a Screen. You'll be able to choose wether you want to display Images, Videos, or an External Site. 
-
+This should get you up and running with displaying Media to a Screen. You'll be able to choose whether you want to display Images, Videos, or an External Site. I don't envision any automation here with most of the processes being manual. A reboot should get you back to a working state. 
 ### Piece1
 The Player
 Debian, 
