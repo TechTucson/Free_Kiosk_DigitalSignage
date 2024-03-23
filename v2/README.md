@@ -12,6 +12,7 @@ Take a look at the instructions for installing Debian Server for our needs here:
   
 ### Test the Setup
 - Sample images exist in the following two folders **screen1** and **screen2**
+- Browse to https://127.0.0.1/index.php
 
 
 
