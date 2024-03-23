@@ -8,6 +8,12 @@ Take a look at the instructions for installing Debian Server for our needs here:
 
 ### Clone this Repo
 - git clone
+- sudo cp -R v2/html/* /var/www/html/.
+  
+### Test the Setup
+- Sample images exist in the following two folders **screen1** and **screen2**
+
+
 
 ### Add your Media
 - Add Your Media to /var/www/html/imgs
