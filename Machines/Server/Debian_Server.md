@@ -10,16 +10,25 @@
 #### Step 2 Create a VirtualBox  
 - We won't need many resources. As a test: I am using **1GB Memory**, **1 CPU**, and **8GB** Hard Drive (Though Only 2.5 GB Are Being Used)
 - Start The Virtual Machine
+- Install Debian To Your Hard Drive
 - Create a User
   - Make sure to remember the password
 - Make sure to remember the root password  
 - The only step that we will vary from the defaults is when selecting the software to install:
   - https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Server/images/Debian_Server-Software.png
+ #### Install Apache and PHP
+ - sudo apt install apache2
+ - sudo apt install php8.2
+ - sudo service apache2 start
+ - sudo systemctl enable apache2
 
-1. Install Debian Base
-2. Install PHP
-3. Install Apache
-4. Enable and Start Apache
-5. Copy Files
-6. Create User For Updating Media
+ #### Verify Apache Installation
+ - curl 127.0.0.1
+ - php -v 
+
+
+ 
+
+
+
 
