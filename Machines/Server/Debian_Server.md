@@ -25,7 +25,13 @@
 
  #### Verify Apache Installation
  - curl 127.0.0.1
- - php -v 
+ - php -v
+
+#### Networking
+- Set the Internal Network to
+- Static IP 10.10.10.10
+- Subnet 255.255.255.0
+- Leave Gateway and DNS Empty
 
 
  
