@@ -33,7 +33,6 @@
   - Create a folder and call it Puppy
   - Click OK
   - Click OK
-- 
 #### Step 5 Install BootLoader
 - Right Click on the Desktop
 - Click Setup and Select Puppy Installer
@@ -85,8 +84,20 @@
 ### Add user to Kiosk
 - sudo adduser kiosk
 - set password
-- 
 ## Reboot and Save
 - Make sure you can ssh to your localhost, or at least get the prompt to log in
+
+# Networking 
+How to Give Puppy Linux a Static IP:
+-Right Click > Setup > Internet Connection Wizard
+- Click Wireless/Wired Lan
+- Click Network Wizard
+- Select the Network Interface we are using
+- Click Static IP
+- No Need For Gateway or DNS
+- Click Save
+- Make sure you select to keep settings after the next Boot.
+## Reboot and Save
+For good measure reboot and save the system.
 
 
