@@ -11,13 +11,22 @@ Take a look at the instructions for installing Debian Server for our needs here:
 - sudo cp -R v2/html/* /var/www/html/.
   
 ### Test the Setup
-- Sample images exist in the following two folders **screen1** and **screen2**
+- Sample images exist in the following two folders **screen1** and **screen2** and **emergency**
 - Browse to https://127.0.0.1/index.php
 
 
 
 ### Add your Media
-- Add Your Media to /var/www/html/imgs
-- Add A second Subset of Media 
+- Add Your Media to /var/www/html/screen1
+- Add Your Media to /var/www/html/screen2
+- Add Your Media to /var/www/html/emergency
+
+### Connect your Kiosks to your server
+- You'll notice that you can start your slideshow depending on the directory by browsing to https://127.0.0.1/index.php?dir=DIRECTORY
+  - https://127.0.0.1/index.php?dir=screen1
+  - https://127.0.0.1/index.php?dir=screen2
+  - https://127.0.0.1/index.php?dir=emergency
+ 
+  ##
 
 
