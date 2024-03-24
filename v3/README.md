@@ -40,3 +40,9 @@
 
 ## Reboot and Save
 - Make sure you can ssh to your localhost, or at least get the prompt to log in
+
+### Add user to Kiosk
+- sudo adduser kiosk
+- set pasword
+
+### SSH From your server
