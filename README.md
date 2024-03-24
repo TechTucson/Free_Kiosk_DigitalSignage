@@ -29,7 +29,17 @@ This project is aimed at the small and even midsize locations that want to push 
   - This does not go very deep.
 - Media
   - Images and Videos
-  - Links to External/Internal Websites. 
+  - Links to External/Internal Websites.
+- Networking
+  - Within our Lab Environment we'll use two VirtualBox network cards per system, an "Internal Network" and a "NAT Network"
+  - The Nat Network is so we can get out to the internet
+    - We can get rid of this network and keep things internal. 
+  - The Internal Network is so they can communicate with each other   
+    - Set static IPs. Within our Lab, we'll be using:
+      -  10.10.10.10 Sever
+      -  10.10.10.20 Kiosk 1
+      -  10.10.10.30 Kiosk 2
+  -  While there are many different options for networking, this project will not go into detail and only scratches the surface when dealing with networking. 
 
 ## Sub Project 1 ( V1)
 This should get you up and running with displaying Media to a Screen. You'll be able to choose whether you want to display Images, Videos, or an External/Internal Site. This project will work only on the Media Player portion. I don't envision any automation here with most of the processes being manual. A reboot should get you back to a working state. 
