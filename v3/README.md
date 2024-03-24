@@ -21,4 +21,5 @@
   -  Make sure you can SSH into the kiosk machines from the Server.
     - ping 10.10.10.20
     - ping 10.10.10.30
-    - ssh   
+    - ssh
+  - Install OpenSSH Server From Puppy Package Manager Reboot and Save
