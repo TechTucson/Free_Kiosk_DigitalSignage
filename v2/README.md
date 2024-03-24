@@ -27,6 +27,16 @@ Take a look at the instructions for installing Debian Server for our needs here:
   - https://127.0.0.1/index.php?dir=screen2
   - https://127.0.0.1/index.php?dir=emergency
  
-  ##
+## Kiosk ( Screen1 ) Configuration
+- Open up ~Startup/firefox_local.sh
+- vi ~Startup/firefox_local.sh and you'll see
+```firefox --kiosk file:\\\home\spot\html\slideshow.html ```
+- We'll change this to
+  ```firefox --kiosk HTTP://10.10.10.10/index.php?dir=screen1 ```
+## Reboot and Save Your Puppy Config
+## Kiosk ( Screen2 ) Configuration
+- Follow the same steps we did for Screen1
+
+
 
 
