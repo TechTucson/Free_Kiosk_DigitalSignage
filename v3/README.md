@@ -7,16 +7,6 @@
     -  10.10.10.10 Sever
     -  10.10.10.20 Kiosk 1
     -  10.10.10.30 Kiosk 2
-  -  How to Give Puppy Linux a Static IP
-    - Right Click > Setup > Internet Connection Wizard
-      - Click Wireless/Wired Lan
-      - Click Network Wizard
-      - Select the Network Interface we are using
-      - Click Static IP
-      - No Need For Gateway or DNS
-      - Click Save
-      - Make sure you select to keep settings after the next Boot.
-      - For good measure reboot and save the system. 
     
   -  Make sure you can SSH into the kiosk machines from the Server.
     - ping 10.10.10.20
