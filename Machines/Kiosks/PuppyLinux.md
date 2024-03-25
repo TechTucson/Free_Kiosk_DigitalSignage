@@ -88,7 +88,7 @@
 - Make sure you can ssh to your localhost, or at least get the prompt to log in
 
 # Networking 
-## For the Internal Network We'll use 10.10.10.20 For Screen 1, 10.10.10.30 For Screen 2, and so on. The subnet will be 255.255.255.0.
+``` For the Internal Network, We'll use 10.10.10.20 For Screen 1, 10.10.10.30 For Screen 2, and so on. The subnet will be 255.255.255.0. ```
 ## Gateway and DNS, leave empty.
 How to Give Puppy Linux a Static IP:
 -Right Click > Setup > Internet Connection Wizard
