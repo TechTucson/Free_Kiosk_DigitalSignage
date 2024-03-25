@@ -18,10 +18,10 @@
 - Open Gparted
 - Select Your Disk
 - Create a Partition Table
-- Format it to Fat 32
-- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition.PNG?raw=true)
-- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition2.PNG?raw=true)
-- ![alt text](https://github.com/TechTucson/Free_Kiosk_DigitalSignage/blob/main/Machines/Kiosks/images/puppy/Partition3.PNG?raw=true)
+  - Create a FAT 32 300 MB Partition    
+- Create an EXT4 Partition with the rest of the available space
+- Apply
+- Set Flag "Boot" On the FAT32 Partition
 - Close GParted
 #### Step 4 Install Puppy Linux Frugal
 - Right Click on the Desktop
@@ -29,7 +29,7 @@
 - Select Frugalpup -Install/Manage Installs
 - Click Puppy
   - Select This Puppy
-  - Select the sda1/fat32 partition we created earlier
+  - Select the sda2/ext4 partition we created earlier
   - Create a folder and call it Puppy
   - Click OK
   - Click OK
