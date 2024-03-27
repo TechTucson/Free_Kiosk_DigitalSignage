@@ -18,10 +18,13 @@
 
 
 ### Users and Permissions
-- We can already login as root to our Debian Server
+- We can already log in as root to our Debian Server
 - We have already created our **kiosk** users.
-  - This user will need permission to restart the server.
-  -  
+  - This user will need permission to restart the server. On the kiosk machines, we'll give our kiosk users the ability to reboot.
+    - vi /etc/sudoers
+    - at the end of the document add
+    - kiosk ALL=NOPASSWD: /sbin/reboot
+  
 
 
 
