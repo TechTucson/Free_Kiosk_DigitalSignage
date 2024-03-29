@@ -28,6 +28,24 @@ $(document).ready(function(){
 });
 </script>
 </head>
+<?php
+    if (isset($_POST['button'])) 
+	{
+        shell_exec("/bin/bash /var/www/html/test.sh");
+    }
+	 if (isset($_POST['button2'])) 
+	{
+        shell_exec("/bin/bash /var/www/html/test2.sh");
+    }
+	 if (isset($_POST['button3'])) 
+	{
+        shell_exec("/bin/bash /var/www/html/test3.sh");
+    }
+?>
+
+
+
+
 <body>
     <div>
         <label><input type="radio" name="colorRadio" value="red"> Player 1</label>
@@ -38,21 +56,21 @@ $(document).ready(function(){
 
     <div class="red box">You have selected <strong>Player 1</strong> <br>
         <br> Player 1 Is Located at Location 1 <br>
-    <br><button name="reboot1">Reboot Player</button><br>
-        <br><br><form action="shellExecPing.php" method="post"><button name="website" value="localhost" type="submit">Ping Player3</button></form></br>
+    <br><form method="post"><p><button name="button">Reboot Player 1</button></p></form><br>
+        <br><br><form action="shellExecPing.php" method="post"><button name="website" value="localhost" type="submit">Player3</button></form></br>
         <br><button name="defaults1">Reset Player 1 Defaults</button><br>
     </div>
 
     <div class="green box">You have selected <strong>Player 2</strong>
                 <br> Player 2 Is Located at Location 2 <br>
-                <br><button name="reboot2">Reboot Player 2</button><br>
-                <br><form action="shellExecPing.php" method="post"><button name="website" value="192.168.0.1" type="submit">Ping Player3</button></form></br>
+                <br><form method="post"><p><button name="button2">Reboot Player 2</button></p></form><br>
+                <br><form action="shellExecPing.php" method="post"><button name="website" value="192.168.0.1" type="submit">Player3</button></form></br>
                 <br><button name="defaults2">Reset Player 2 Defaults</button><br>
     </div>
     <div class="blue box">You have selected <strong>Player 3</strong>
                 <br> Player 3 Is Located at Location 3 <br>
-                <br><button name="reboot3">Reboot Player 3</button><br>
-                <br><form action="shellExecPing.php" method="post"><button name="website" value="127.0.0.1" type="submit">Ping Player3</button></form></br>
+                <br><form method="post"><p><button name="button3">Reboot Player 3</button></p></form><br>
+                <br><form action="shellExecPing.php" method="post"><button name="website" value="127.0.0.1" type="submit">Player3</button></form></br>
                 <br><button name="defaults3">Reset Player 2 Defaults</button><br>
     </div>
       <div class="all box">You have selected <strong>All Players</strong><br>
